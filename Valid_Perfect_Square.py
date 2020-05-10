@@ -14,7 +14,7 @@ Output: false
 '''
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
-        if (str(num ** 0.5))[-1] == '0':      
+        if (str(num ** 0.5))[-1] == '0':        #if num= 16  str('4.0')[-1] is '0'    
             return True
         return False
         
